@@ -12,13 +12,17 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :user_name %>
-    <%= form.text_field :user_name %>
+    <div class="form-group">
+    <label for="formGroupExampleInput"><%= form.label :user_name %></label>
+    <input type="text" class="form-control" id="formGroupExampleInput" <%= form.text_field :user_name %>
   </div>
 
+
   <div class="field">
-      <%= form.label :body %><br>
-      <%= form.text_area :body, id: :comment_body %>
+    <div class="form-group">
+    <label for="formGroupExampleInput2"><%= form.label :body %><br></label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" <%= form.text_area :body, id: :comment_body %>
+
       <%= form.hidden_field :idea_id %>
     </div>
 

@@ -13,16 +13,26 @@
  *= require_tree .
  *= require_self
  */
-
+@import "bootstrap";
 
 
 
  footer { margin-top: 100px; }
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }
- body { margin: 0; }
+ body {
+   margin: 0;
+   background-color: #CAC8EF;
+}
 
+h3{
+  
+}
 
+.title{
+  text-align: center;
+
+}
 .new_idea{
   text-align: center;
   font-size: 25px;
